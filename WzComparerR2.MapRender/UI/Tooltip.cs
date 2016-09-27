@@ -147,11 +147,11 @@ namespace WzComparerR2.MapRender.UI
         {
             switch (pType)
             {
-                case 0: return "地图出生点";
+                case 0: return "캐릭터시작지점";
                 case 1: return "일반포탈(숨겨짐)";
                 case 2: return "일반포탈";
                 case 3: return "일반포탈(접촉시활성)";
-                case 6: return "时空门入口点";
+                case 6: return "워프게이트";
                 case 7: return "스크립트포탈";
                 case 8: return "스크립트포탈(숨겨짐)";
                 case 9: return "스크립트포탈(접촉시활성)";
