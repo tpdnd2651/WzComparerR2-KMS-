@@ -408,7 +408,7 @@ namespace WzComparerR2
 > 还没完成 所以请选择patch文件  exe补丁暂时懒得分离
 > 没有检查原客户端版本 为了正确执行请预先确认
 > 暂时不提供文件块的筛选或文件缺失提示
-> 没优化 于是可能生成文件体积较大 但是几乎可以保证完整性", "미번역");
+> 没优化 于是可能生成文件体积较大 但是几乎可以保证完整性", "미번역..");
 
             SaveFileDialog dlg = new SaveFileDialog();
             dlg.Filter = "*.patch|*.patch";
