@@ -1,4 +1,4 @@
-﻿namespace WzComparerR2
+namespace WzComparerR2
 {
     partial class MainForm
     {
@@ -2284,11 +2284,11 @@
             // 
             // 
             this.labelX1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
-            this.labelX1.Location = new System.Drawing.Point(34, 39);
+            this.labelX1.Location = new System.Drawing.Point(30, 39);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(44, 16);
             this.labelX1.TabIndex = 6;
-            this.labelX1.Text = "wzPng:";
+            this.labelX1.Text = "WzPng:";
             // 
             // chkOutputPng
             // 
@@ -2301,10 +2301,10 @@
             this.chkOutputPng.CheckValue = "Y";
             this.chkOutputPng.Location = new System.Drawing.Point(205, 34);
             this.chkOutputPng.Name = "chkOutputPng";
-            this.chkOutputPng.Size = new System.Drawing.Size(107, 23);
+            this.chkOutputPng.Size = new System.Drawing.Size(150, 23);
             this.chkOutputPng.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.chkOutputPng.TabIndex = 5;
-            this.chkOutputPng.Text = "OutputPngFile";
+            this.chkOutputPng.Text = "사진도 함께 추출";
             // 
             // cmbComparePng
             // 
@@ -2330,7 +2330,7 @@
             this.labelXComp2.Name = "labelXComp2";
             this.labelXComp2.Size = new System.Drawing.Size(44, 16);
             this.labelXComp2.TabIndex = 3;
-            this.labelXComp2.Text = "detail";
+            this.labelXComp2.Text = "[사용법]<br/>1. 비교하고자 하는 같은 이름의 Wz 파일 2개를 불러옵니다.<br/>2. Easy Compare를 눌러 저장할 폴더를 선택합니다.<br/>3. 비교 중, 새로운 정보가 추가되면 처음 정한 폴더에 데이터가 저장됩니다.<br/>4. 사진파일과 html파일이 저장되며 html파일은<br/>신규 혹은 수정된 정보를 볼 수 있도록 도와줍니다.";
             this.labelXComp2.TextLineAlignment = System.Drawing.StringAlignment.Near;
             // 
             // labelXComp1
@@ -2344,7 +2344,7 @@
             this.labelXComp1.Name = "labelXComp1";
             this.labelXComp1.Size = new System.Drawing.Size(31, 16);
             this.labelXComp1.TabIndex = 1;
-            this.labelXComp1.Text = "tail";
+            this.labelXComp1.Text = "끝내주게 좋은 프로그램";
             this.labelXComp1.TextLineAlignment = System.Drawing.StringAlignment.Near;
             // 
             // btnEasyCompare
