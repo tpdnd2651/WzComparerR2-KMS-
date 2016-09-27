@@ -207,13 +207,13 @@ namespace WzComparerR2
                 patcher.PatchingStateChanged += new EventHandler<PatchingEventArgs>(patcher_PatchingStateChanged);
                 AppendStateText("패치확인중 ");
                 patcher.OpenDecompress();
-                AppendStateText("成功\r\n");
+                AppendStateText("성공\r\n");
                 if (prePatch)
                 {
                     AppendStateText("패치준비중 \r\n");
                     long decompressedSize = patcher.PrePatch();
-                    AppendStateText(string.Format("패치용량: {0:N0} bytes...\r\n", decompressedSize));
-                    AppendStateText(string.Format("패치갯수: {0} 개...\r\n",
+                    AppendStateText(string.Format("패치용량: {0:N0} bytes \r\n", decompressedSize));
+                    AppendStateText(string.Format("패치갯수: {0} 개 \r\n",
                         patcher.PatchParts == null ? -1 : patcher.PatchParts.Count));
                     txtNotice.Text = patcher.NoticeText;
                     foreach (PatchPartContext part in patcher.PatchParts)
