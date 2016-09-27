@@ -547,7 +547,7 @@ namespace WzComparerR2
             this.superTabItem1.AttachedControl = this.superTabControlPanel1;
             this.superTabItem1.GlobalItem = false;
             this.superTabItem1.Name = "superTabItem1";
-            this.superTabItem1.Text = "Notice";
+            this.superTabItem1.Text = "안내";
             // 
             // superTabControlPanel2
             // 
@@ -648,7 +648,7 @@ namespace WzComparerR2
             this.superTabItem2.AttachedControl = this.superTabControlPanel2;
             this.superTabItem2.GlobalItem = false;
             this.superTabItem2.Name = "superTabItem2";
-            this.superTabItem2.Text = "Files";
+            this.superTabItem2.Text = "파일";
             // 
             // superTabControlPanel3
             // 
@@ -695,7 +695,7 @@ namespace WzComparerR2
             this.superTabItem3.AttachedControl = this.superTabControlPanel3;
             this.superTabItem3.GlobalItem = false;
             this.superTabItem3.Name = "superTabItem3";
-            this.superTabItem3.Text = "State";
+            this.superTabItem3.Text = "상태";
             // 
             // panelEx1
             // 
@@ -751,7 +751,7 @@ namespace WzComparerR2
             this.expandablePanel3.TitleStyle.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder;
             this.expandablePanel3.TitleStyle.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.expandablePanel3.TitleStyle.GradientAngle = 90;
-            this.expandablePanel3.TitleText = "Reverse Patcher";
+            this.expandablePanel3.TitleText = "리버스 패치 (사용금지)";
             // 
             // buttonXCreate
             // 
